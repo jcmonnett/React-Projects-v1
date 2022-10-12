@@ -42,20 +42,19 @@ function App() {
       <form>
         <input
           onChange={handleChange}
+          value={contact.fName}
           name="fName"
-          onChange={handleChange}
           placeholder="First Name"
         />
         <input
           onChange={handleChange}
+          value={contact.lName}
           name="lName"
-          onChange={handleChange}
           placeholder="Last Name"
         />
         <input
           onChange={handleChange}
-          name="email"
-          onChange={handleChange}
+          value={contact.email}
           placeholder="Email"
         />
         <button>Submit</button>
